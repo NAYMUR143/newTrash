@@ -18,13 +18,13 @@ export const TopHeaderProduct = [
     onLoadTitle: "Classic 24k tee",
     onLoadSubTitles: "$27.98",
     hoverSubTitles: ["s", "m", "l"],
-    customize: "Classsic24ktTee",
+    customize: "Classic24kTee",
   },
   {
     onLoadImg: "/img/topProductImage/04Product_home.jpg",
     onLoadTitle: "Classic 24k Hoodie signature edition",
     onLoadSubTitles: "$124.24",
     hoverSubTitles: ["s", "m", "l"],
-    customize: "Classic24kHoddieSignatureEditrion",
+    customize: "Classic24kHoodieSignatureEdition",
   },
 ];

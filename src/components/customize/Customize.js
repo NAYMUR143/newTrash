@@ -12,7 +12,7 @@ const CustomizeDiv = styled.div`
 
   .mySwiper {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
   }
 
   img {
@@ -177,39 +177,6 @@ const Customize = ({ itm }) => {
                     </ul>
                   </Grid>
                   <Grid item xs={12} sm={12} md={4}></Grid>
-                </Grid>
-              </Grid>
-
-              <Grid item xs={12} style={{ margin: "10px 0 36px 0" }}>
-                <Grid container spacing={1.3}>
-                  <Grid item xs={1.5}>
-                    <div
-                      style={{
-                        backgroundColor: color1_,
-
-                        width: "50px",
-                        minHeight: "60px",
-                      }}
-                    ></div>
-                  </Grid>
-                  <Grid item xs={1.5}>
-                    <div
-                      style={{
-                        backgroundColor: color2_,
-                        width: "50px",
-                        minHeight: "60px",
-                      }}
-                    ></div>
-                  </Grid>
-                  <Grid item xs={1.5}>
-                    <div
-                      style={{
-                        backgroundColor: color3_,
-                        width: "50px",
-                        minHeight: "60px",
-                      }}
-                    ></div>
-                  </Grid>
                 </Grid>
               </Grid>
             </Grid>

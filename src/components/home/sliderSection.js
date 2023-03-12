@@ -156,21 +156,6 @@ const SliderSection = () => {
             <SwiperSlide>
               <div className="sub-swiper-container">
                 <img
-                  src={`${rootImgLink}/img/footerSlider/01footerSliderImg.jpg`}
-                  alt="swiper-img"
-                />
-
-                <div>
-                  <p>Galleria</p>
-                  <p>Los angeles, California</p>
-                  <p>USA</p>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="sub-swiper-container">
-                <img
                   src={`${rootImgLink}/img/footerSlider/02footerSliderImg.jpg`}
                   alt="swiper-img"
                 />
@@ -182,7 +167,20 @@ const SliderSection = () => {
                 </div>
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="sub-swiper-container">
+                <img
+                  src={`${rootImgLink}/img/footerSlider/01footerSliderImg.jpg`}
+                  alt="swiper-img"
+                />
 
+                <div>
+                  <p>Galleria</p>
+                  <p>Los angeles, California</p>
+                  <p>USA</p>
+                </div>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div className="sub-swiper-container">
                 <img

@@ -22,32 +22,11 @@ const CatalogContentDivForViewCollection = styled.div`
     .fixed-bracket {
       position: relative;
       margin-left: 10px;
-
-      ::before {
-        position: absolute;
-        content: "[";
-        left: -5px;
-      }
-      ::after {
-        position: absolute;
-        content: "]";
-      }
     }
   }
 
   .dynamic-bracket {
     position: relative;
-
-    :hover::before {
-      position: absolute;
-      content: "[";
-      left: -5px;
-    }
-
-    :hover::after {
-      position: absolute;
-      content: "]";
-    }
   }
 
   .top-div {
@@ -139,7 +118,7 @@ const ViewCollection = () => {
         <Grid container spacing={1.3}>
           {productData.map((obj, i) => {
             return (
-              <Grid item sm={6} xs={12} md={3} key={i}>
+              <Grid item sm={6} xs={6} md={3} key={i}>
                 <Link to={`/product/${obj.customize}`}>
                   <div className="single-img-container">
                     <PrintOneImgBox obj={obj} />

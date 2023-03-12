@@ -6,12 +6,12 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages";
-import Classic24kHoddieSignatureEditrion from "./pages/product/Classic24kHoddieSignatureEditrion";
-import ClassicMafiaHoddie from "./pages/product/ClassicMafiaHoddie";
+import Classic24kHoddieSignatureEditrion from "./pages/product/Classic24kHoodieSignatureEdition";
+import ClassicMafiaHoodie from "./pages/product/ClassicMafiaHoodie";
 import ClassicMafiaLongSleave from "./pages/product/ClassicMafiaLongSleave";
 import ClassicMafiaTee from "./pages/product/ClassicMafiaTee";
-import Classsic24ktTee from "./pages/product/Classsic24ktTee";
-import Classic24kLongSleave from "./pages/product/Cassis24kLongSleave";
+import Classic24kLongSleave from "./pages/product/Classic24kLongSleave";
+import Classic24kTee from "./pages/product/Classic24kTee";
 
 const router = createBrowserRouter([
   {
@@ -19,12 +19,12 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/product/Classic24kHoddieSignatureEditrion",
+    path: "/product/Classic24kHoodieSignatureEdition",
     element: <Classic24kHoddieSignatureEditrion />,
   },
   {
-    path: "/product/ClassicMafiaHoddie",
-    element: <ClassicMafiaHoddie />,
+    path: "/product/ClassicMafiaHoodie",
+    element: <ClassicMafiaHoodie />,
   },
   {
     path: "/product/ClassicMafiaLongSleave",
@@ -35,8 +35,8 @@ const router = createBrowserRouter([
     element: <ClassicMafiaTee />,
   },
   {
-    path: "/product/Classsic24ktTee",
-    element: <Classsic24ktTee />,
+    path: "/product/Classic24kTee",
+    element: <Classic24kTee />,
   },
   {
     path: "/product/Classic24KLongSleave",

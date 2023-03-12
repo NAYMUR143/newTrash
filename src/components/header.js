@@ -26,6 +26,7 @@ const HeaderDiv = styled.div`
   .logo {
     width: 100px;
     height: 50px;
+    transform: translateX(10px);
     img {
       width: 100%;
       object-fit: contain;

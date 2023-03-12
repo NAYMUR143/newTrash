@@ -3,16 +3,13 @@ import Footer from "../../../components/footer";
 import RelatedViewCollection from "../../../components/home/relatedViewCollection";
 import Customize from "../../../components/customize/Customize";
 
-const ClassicMafiaHoddie = () => {
+const ClassicMafiaHoodie = () => {
   let imgDataArr = [
     {
-      name_: "Classic Mafia Hoddie",
+      name_: "Classic Mafia Hoodie",
       price_: "$77.74",
       colors_: "white, black, yellow, gray, pink, beige, gold, purple, blue",
-      sizes_: ["S", "X", " L"],
-      color1_: "#eff1b7",
-      color2_: "#9cf1ff",
-      color3_: "#cfcfcf",
+      sizes_: ["S", "M", " L"],
       dtImgArr: [
         {
           src: `/img/customize/ClassicMafiaHoddie/1.jpg`,
@@ -40,4 +37,4 @@ const ClassicMafiaHoddie = () => {
   );
 };
 
-export default ClassicMafiaHoddie;
+export default ClassicMafiaHoodie;

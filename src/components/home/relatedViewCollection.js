@@ -142,7 +142,7 @@ const RelatedViewCollection = () => {
         <Grid container spacing={1.3}>
           {relatedData.map((obj, i) => {
             return (
-              <Grid item sm={6} xs={12} md={3} key={i}>
+              <Grid item sm={6} xs={6} md={3} key={i}>
                 <Link to={`/product/${obj.customize}`}>
                   <div className="single-img-container">
                     <PrintOneImgBoxBottom obj={obj} />

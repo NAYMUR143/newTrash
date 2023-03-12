@@ -6,13 +6,11 @@ import Customize from "../../../components/customize/Customize";
 const Classic24kHoddieSignatureEditrion = () => {
   let imgDataArr = [
     {
-      name_: "Classic 24k Hoddie Signature Editrion",
+      name_: "Classic 24k Hoodie Signature Edition",
       price_: "$124.24",
       colors_: "white, black, yellow, gray, pink, beige, gold, purple, blue",
-      sizes_: ["S", "X", " L"],
-      color1_: "#eff1b7",
-      color2_: "#9cf1ff",
-      color3_: "#cfcfcf",
+      sizes_: ["S", "M", " L"],
+
       dtImgArr: [
         {
           src: `/img/customize/Classic24kHoddieSignatureEditrion/1.jpg`,
@@ -34,8 +32,9 @@ const Classic24kHoddieSignatureEditrion = () => {
     <>
       <main>
         <Header />
-        {imgDataArr &&
-          imgDataArr.map((itm, i) => <Customize itm={itm} key={i} />)}
+        {imgDataArr.map((itm, i) => (
+          <Customize itm={itm} key={i} />
+        ))}
         <RelatedViewCollection />
         <Footer />
       </main>

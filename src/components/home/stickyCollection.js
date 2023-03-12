@@ -13,6 +13,10 @@ const StickyCollectionDiv = styled.div`
 
   h3 {
     font-weight: 500;
+    @media screen and (max-width: 900px) {
+      font-size: 2.5em;
+      margin-top: 15px;
+    }
   }
 
   p {
@@ -20,6 +24,9 @@ const StickyCollectionDiv = styled.div`
     font-size: 0.75rem;
     cursor: pointer;
     text-transform: uppercase;
+    @media screen and (max-width: 900px) {
+      font-size: 0.85rem;
+    }
   }
 
   .main {
@@ -83,13 +90,15 @@ const StickyCollection = () => {
   return (
     <StickyCollectionDiv>
       <Box
-        sx={{
-          display: {
-            xs: "none",
-            sm: "none",
-            md: "inherit",
-          },
-        }}
+        sx={
+          {
+            // display: {
+            //   xs: "none",
+            //   sm: "none",
+            //   md: "inherit",
+            // },
+          }
+        }
       >
         <div className="grid-container">
           <Grid container spacing={1.3}>

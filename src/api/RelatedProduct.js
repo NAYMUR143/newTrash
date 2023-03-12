@@ -18,13 +18,13 @@ export const RelatedProductData = [
     onLoadTitle: "Classic 24k tee",
     onLoadSubTitles: "$27.98",
     hoverSubTitles: ["s", "m", "l"],
-    customize: "Classsic24ktTee",
+    customize: "Classic24kTee",
   },
   {
     onLoadImg: "/img/bottomProductImage/04BottomProduct_home.jpg",
     onLoadTitle: "Classic mafia hoodie",
     onLoadSubTitles: "$77.74",
     hoverSubTitles: ["s", "m", "l"],
-    customize: "ClassicMafiaHoddie",
+    customize: "ClassicMafiaHoodie",
   },
 ];

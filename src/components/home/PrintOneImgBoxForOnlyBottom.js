@@ -15,6 +15,14 @@ export const ImgInfoContainer = styled.div`
     height: 450px;
     margin-bottom: 5px;
   }
+  @media screen and (max-width: 500px) {
+    height: 257px;
+    margin-bottom: 5px;
+    p,
+    li {
+      font-size: 0.6rem !important;
+    }
+  }
   .relative {
     width: 100%;
     height: 90%;
