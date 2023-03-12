@@ -18,11 +18,12 @@ const ClassicMafiaLongSleave = () => {
           src: `/img/customize/ClassicMafiaLongSleave/1.jpg`,
         },
         {
-          src: `/img/customize/ClassicMafiaLongSleave/2.jpg`,
-        },
-        {
           src: `/img/customize/ClassicMafiaLongSleave/3.jpg`,
         },
+        {
+          src: `/img/customize/ClassicMafiaLongSleave/2.jpg`,
+        },
+
         {
           src: `/img/customize/ClassicMafiaLongSleave/4.jpg`,
         },

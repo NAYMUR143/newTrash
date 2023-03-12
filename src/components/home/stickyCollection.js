@@ -3,8 +3,6 @@ import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import { Link } from "react-router-dom";
 
-const rootImgLink = "";
-
 const StickyCollectionDiv = styled.div`
   width: 100%;
   margin-top: 00px;
@@ -138,7 +136,7 @@ function RightImg() {
           height: "auto",
           paddingTop: "50px",
         }}
-        src={`${rootImgLink}/img/bigImage.JPG`}
+        src="/img/bigImage.jpg"
         alt="img-alt"
       />
 

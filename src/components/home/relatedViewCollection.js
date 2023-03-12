@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { RelatedProductData } from "../../api/RelatedProduct";
 import { useState } from "react";
 
-const CatalogContentDivForViewCollectionRelated = styled.div`
+export const CatalogContentDivForViewCollectionRelated = styled.div`
   width: 100%;
 
   .view-collection-txt-related {

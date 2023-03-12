@@ -15,11 +15,9 @@ export default function Home() {
         <Header />
         <AfterHeader />
         <ViewCollection />
-
         <StickyCollection />
         <RelatedViewCollection />
         <SliderSection />
-
         <Footer />
       </main>
     </>

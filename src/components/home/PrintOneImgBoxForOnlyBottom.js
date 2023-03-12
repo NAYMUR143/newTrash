@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-let ImgInfoContainer = styled.div`
+export const ImgInfoContainer = styled.div`
   width: 100%;
   position: relative;
   margin-bottom: 16px;

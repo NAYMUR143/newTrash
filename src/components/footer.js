@@ -108,12 +108,12 @@ const footer = () => {
           </Grid>
           <Grid item xs={12} sm={4} md={3}></Grid>
           <Grid item xs={12} sm={12} md={3}>
-            <div className="news-letter-container">
+            {/* <div className="news-letter-container">
               <input type="text" placeholder="SUBSCRIBE TO NEWSLETTER" />
               <Link to="/" className="dynamic-bracket submit-btn">
                 Submit
               </Link>
-            </div>
+            </div> */}
           </Grid>
         </Grid>
 
