@@ -170,7 +170,7 @@ const Header = () => {
                     </ListItem>
                     <Divider></Divider>
                     <ListItem>
-                      <Grid container spacing={1.3}>
+                      {/* <Grid container spacing={1.3}>
                         <Grid item xs={6}>
                           <img
                             src={`${rootImgLink}/img/topProductImage/01Product_home.jpg`}
@@ -185,7 +185,7 @@ const Header = () => {
                           />
                           <p>Classic mafia hoodie</p>
                         </Grid>
-                      </Grid>
+                      </Grid> */}
                     </ListItem>
                   </DrawerContainer>
                 </Drawer>

@@ -13,6 +13,11 @@ const StickyCollectionDiv = styled.div`
 
   h3 {
     font-weight: 500;
+    font-size: 3.4em;
+    @media screen and (max-width: 1200px) {
+      font-size: 2.5em;
+      margin-top: 15px;
+    }
     @media screen and (max-width: 900px) {
       font-size: 2.5em;
       margin-top: 15px;
@@ -21,9 +26,12 @@ const StickyCollectionDiv = styled.div`
 
   p {
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 1.7rem;
     cursor: pointer;
     text-transform: uppercase;
+    @media screen and (max-width: 1200px) {
+      font-size: 0.85rem;
+    }
     @media screen and (max-width: 900px) {
       font-size: 0.85rem;
     }
@@ -102,7 +110,7 @@ const StickyCollection = () => {
       >
         <div className="grid-container">
           <Grid container spacing={1.3}>
-            <Grid item xl={6} lg={4} md={4}>
+            <Grid item xl={6} lg={6} md={4}>
               <Grid container spacing={1.3} style={{ height: "100%" }}>
                 <Grid
                   item
@@ -126,7 +134,7 @@ const StickyCollection = () => {
               </Grid>
             </Grid>
 
-            <Grid item xl={6} lg={8} md={8}>
+            <Grid item xl={6} lg={6} md={8}>
               <RightImg />
             </Grid>
           </Grid>
